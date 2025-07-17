@@ -77,23 +77,3 @@ def mostrar():
 
 
 
-while True:
- print("***MENU PRINCIPAL***")
- print("1. Stock marca")
-
- print("2. Busqueda por precio")
- print("3. Listado de productos")
- print("4. Salir")
- opc=input("ingrese opcion: ")
- if opc=="1":
-  stock_marca()
- elif opc=="2":
-  busqueda_precio()
- elif opc=="3":
-   mostrar()
- elif opc=="4":
-   print("Programa Finalizado")
-   break
- else:
-   print("Debe seleccionar una opcion valida!!")
-   ....
